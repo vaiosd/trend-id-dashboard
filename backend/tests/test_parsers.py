@@ -9,7 +9,10 @@ from app.twitter_trends import TwitterTrend, parse_trends
 SAMPLE_TRENDS24 = """
 <html><body>
 <ol class="trend-card__list">
-<li><a href="https://twitter.com/search?q=Foo">Foo</a><span class="tweet-count">10K Tweets</span></li>
+<li>
+  <a href="https://twitter.com/search?q=Foo">Foo</a>
+  <span class="tweet-count">10K Tweets</span>
+</li>
 <li><a href="https://twitter.com/search?q=%23Bar">#Bar</a></li>
 <li><a href="https://twitter.com/search?q=Baz">Baz</a></li>
 </ol>
